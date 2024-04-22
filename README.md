@@ -14,14 +14,14 @@ Welcome to the User Management Application, a Laravel-based web application for 
 To get started with the User Management Application, follow these steps:
 
 1. **Clone the repository**:
-
+```bash
 git clone https://github.com/rnscth/user-mgmnt-laravel.git
-
+```
 2. **Install Dependencies**:
-
-cd user-management-app
+```bash
+cd user-mgmnt-laravel
 composer install
-
+```
 
 3. **Set Up Environment**:
 
@@ -29,25 +29,25 @@ composer install
 - Configure your database connection in the `.env` file.
 
 4. **Generate Application Key**:
-
+```bash
 php artisan key:generate
-
+```
 
 5. **Run Migrations and Seeders**:
-
+```bash
 php artisan migrate:fresh --seed
-
+```
 
 6. **Start the Application**:
-
+```bash
 php artisan serve
-
+```
 
 Access the application at `http://localhost:8000` in your browser.
 
 ## Frontend Integration
 
-This application requires the Vue.js frontend for user interface interactions. Please ensure that the `user-mgmnt-vue` frontend project is set up and integrated for the full functionality of the User Management Application.
+This application requires the Vue.js frontend for user interface interactions. Please ensure that the `user-mgmnt-vuejs` frontend project is set up and integrated for the full functionality of the User Management Application.
 
 ## Contributing
 
@@ -59,6 +59,3 @@ Contributions are welcome! Please feel free to submit bug reports, feature reque
 4. Push to the branch (`git push origin feature/NewFeature`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
